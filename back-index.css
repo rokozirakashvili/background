@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("images/Illustration.svg"),
+    url("images/Union.svg"),
+    url("images/Rocket.svg"),
+    url("images/Subtract.svg"),
+    url("images/paper-plane.svg"),
+    url("images/cloud.svg"),
+    url("images/lonely-rocket.svg"),
+    url("images/Subtract-2.svg"),
+    url("images/Subtract-3.svg");
+    background-repeat: no-repeat;
+    background-position: top right, 0 1428.96px,
+    right 3549px,
+    center 3131px,
+    right 2740px,
+    left 4880px,
+    right 4800px,
+    center 4429px,
+    center 5888.38px;
+}
+
+#nav {
+    padding: 30px 40px;
+}
+
+.nav-list {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+#btn-nav {
+    border: 0px;
+    width: 147px;
+    height: 48px;
+    border-radius: 52px;
+    background: #ffffff;
+}
+
+#nav-buttons-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 85%;
+    text-align: right;
+
+}
+
+#nav-logo {
+    vertical-align: middle;
+}
+
+#at-tokners {
+    margin-bottom: 5px;
+    margin-left: 135px;
+    margin-top: 205px;
+    color: #2278D4;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+#long-laizi {
+    margin-bottom: 30px;
+    margin-left: 135px;
+    width: 553px;
+    color: #191B21;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+#we-are {
+    margin-left: 135px;
+    width: 511px;
+    color: #191B21;
+    font-family: Azo Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+#learn-more-btn {
+    margin-left: 135px;
+    margin-top: 40px;
+    width: 147px;
+    height: 48px;
+    border: 0px;
+    border-radius: 52px;
+    background: #22A75D;
+}
+
+#user-types-container {
+    text-align: center;
+    margin-top: 304px;
+}
+
+#about-us-container {
+    width: 550px;
+    margin: 100px 70px;
+}
+
+.user-type-box {
+    width: 35%;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #f2f0f4f2;
+    padding: 50px 30px 0px 30px;
+    text-align: center;
+}
+
+#user-type-box-id {
+    padding: 30px 30px 0px 30px;
+}
+
+.For {
+    color: #191B21;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+#Creators {
+    color: #22A75D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    text-decoration-line: underline;
+}
+
+#Hodlers {
+    color: #2278D4;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    text-decoration-line: underline;
+}
+
+.For-text {
+    opacity: 0.6;
+    margin-top: 30px;
+    color: #191B21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#difference-container {
+    margin-top: 157px;
+    text-align: center;
+}
+
+#difference-logo {
+    vertical-align: top;
+}
+
+#difference-header {
+    width: 356px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    color: #F7F5F9;
+    margin-left: 77px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#difference-desc-container {
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 175px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+    vertical-align: middle;
+}
+
+#scroll-text {
+    height: 183px;
+    overflow-y: scroll;
+    margin-top: 30px;
+}
+
+.offerings-container {
+    margin-top: 727px;
+    text-align: center;
+}
+
+.offering-item {
+    text-align: left;
+    display: inline-block;
+    margin-right: 61px;
+    vertical-align: top;
+}
+
+.offering-item p{
+    display: inline-block;
+}
+
+.offering-number {
+    color: #2278D4;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.offering-name {
+    color: #191B21;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    opacity: 0.7;
+}
+
+#is-coming-container{
+    width: 644px;
+    margin-left: 200px;
+    margin-top: 636px;
+}
+
+h3 {
+    color: #191B21;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+#rocet-text {
+    opacity: 0.6;
+    color: #191B21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.outstanding-text {
+    font-weight: bold;
+}
+
+.presale-details-container {
+    margin-top: 400px;
+    text-align: center;
+}
+
+#presale-title {
+    color: #F7F5F9;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+#Presale-item-container {
+    text-align: center;
+}
+
+.Presale-item {
+    display: inline-block;
+    width: 511px;
+    height: 585px;
+    border-radius: 25px;
+    background: #FFFFFF;
+}
+
+.middle {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.sides {
+    margin-top: 40px;
+    vertical-align: top;
+}
+
+.phade-title {
+    margin-bottom: 4px;
+    margin-top: 150px;
+    font-weight: bold;
+    color: #191B21;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.phade-day-time {
+    margin-bottom: 70px;
+    color: #191B21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+.phade-BNB {
+    margin-bottom: 20px;
+    color: #191B21;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+.phade-cap {
+    margin-bottom: 10px;
+    opacity: 0.8;
+    color: #191B21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#buy-title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #F7F5F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.then-text {
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 778px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#how-to-buy-container {
+    text-align: center;
+}
+
+.then-img {
+    margin-top: 10px;
+}
+
+#footer-link-container a{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 280px;
+}
+
+.paragraps-1 {
+    margin-left: 550px;
+    margin-top: 200px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.paragraps{
+    margin-top: 200px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.slash {
+    color: #FFFFFF;
+    margin-left: 66px;
+    margin-right: 66px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    opacity: 0.16;
+}
+
+footer {
+    padding-bottom: 94px;
+}
+
+#tokners-logo {
+    margin-top: 140px;
+    margin-left: 173px;
+}
+
+#icons {
+    margin-left: 400px;
+    width: 350px;
+    height: 50px;
+}
+
+#copy {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 84.50%;
+}
+
+#dumb-icon {
+    color: grey;
+    margin-top: 5px;
+    margin-left: 88%;
+}
+
+#design-addres {
+    margin-right: 80px;
+    margin-top: -1%;
+    color: grey;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.24px;
+    text-decoration-line: underline;
+}
